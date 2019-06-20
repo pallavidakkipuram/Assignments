@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48964" started-at="2019-06-19T05:00:53Z" finished-at="2019-06-19T05:01:42Z">
+  <suite name="Default suite" duration-ms="275842" started-at="2019-06-20T10:50:50Z" finished-at="2019-06-20T10:55:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48964" started-at="2019-06-19T05:00:53Z" finished-at="2019-06-19T05:01:42Z">
-      <class name="com.training.sanity.tests.week1">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.week1@66d33a]" name="setUpBeforeClass" is-config="true" duration-ms="18533" started-at="2019-06-19T10:30:53Z" finished-at="2019-06-19T10:31:11Z">
+    <test name="Default test" duration-ms="275842" started-at="2019-06-20T10:50:50Z" finished-at="2019-06-20T10:55:26Z">
+      <class name="com.training.sanity.tests.week2">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.week2@66d33a]" name="setUpBeforeClass" is-config="true" duration-ms="10988" started-at="2019-06-20T16:20:50Z" finished-at="2019-06-20T16:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="registration()[pri:1, instance:com.training.sanity.tests.week1@66d33a]" name="registration" duration-ms="8383" started-at="2019-06-19T10:31:11Z" finished-at="2019-06-19T10:31:20Z">
+        <test-method status="PASS" signature="login_as_teacher()[pri:1, instance:com.training.sanity.tests.week2@66d33a]" name="login_as_teacher" duration-ms="12474" started-at="2019-06-20T16:21:01Z" finished-at="2019-06-20T16:21:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method status="PASS" signature="validLoginTest()[pri:2, instance:com.training.sanity.tests.week1@66d33a]" name="validLoginTest" duration-ms="6820" started-at="2019-06-19T10:31:20Z" finished-at="2019-06-19T10:31:26Z">
+        </test-method> <!-- login_as_teacher -->
+        <test-method status="PASS" signature="create_course()[pri:2, instance:com.training.sanity.tests.week2@66d33a]" name="create_course" duration-ms="104312" started-at="2019-06-20T16:21:13Z" finished-at="2019-06-20T16:22:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="change_pwd()[pri:3, instance:com.training.sanity.tests.week1@66d33a]" name="change_pwd" duration-ms="15192" started-at="2019-06-19T10:31:26Z" finished-at="2019-06-19T10:31:42Z">
+        </test-method> <!-- create_course -->
+        <test-method status="PASS" signature="create_Test()[pri:3, instance:com.training.sanity.tests.week2@66d33a]" name="create_Test" duration-ms="93096" started-at="2019-06-20T16:22:58Z" finished-at="2019-06-20T16:24:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- change_pwd -->
-      </class> <!-- com.training.sanity.tests.week1 -->
+        </test-method> <!-- create_Test -->
+        <test-method status="PASS" signature="attach_certificate()[pri:4, instance:com.training.sanity.tests.week2@66d33a]" name="attach_certificate" duration-ms="38266" started-at="2019-06-20T16:24:31Z" finished-at="2019-06-20T16:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attach_certificate -->
+        <test-method status="PASS" signature="change_settings()[pri:4, instance:com.training.sanity.tests.week2@66d33a]" name="change_settings" duration-ms="16683" started-at="2019-06-20T16:25:09Z" finished-at="2019-06-20T16:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change_settings -->
+      </class> <!-- com.training.sanity.tests.week2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
